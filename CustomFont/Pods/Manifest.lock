@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - SDAutoLayout (2.1.7)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - Masonry
+  - SDAutoLayout (~> 2.1.7)
+  - SnapKit (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: 155ac2d8cd5c5adc9266a771fd33834267e3076b
+
+COCOAPODS: 1.2.0.beta.1

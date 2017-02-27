@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CustomFont.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDAutoLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7846FAFD63B00BCA23CBA4AE6216463F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D12EF4133A0DE33520F83C7E6C9F137</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CC5933098D92C94AE97752137918F8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D52144DE9D7255DE912490FF5A806573</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

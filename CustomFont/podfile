@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+target 'CustomFont' do
+pod 'SDAutoLayout', '~> 2.1.7'
+pod 'Masonry'
+pod 'SnapKit', '~> 3.0.2'
+use_frameworks!
+end
+
