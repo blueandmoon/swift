@@ -53,8 +53,12 @@ class ColorProgress: UIView, CAAnimationDelegate {
         layer.addSublayer(gradientLayer)
         
         //  添加显示区域
+        changeMaskFrame()
+        maskLayer.cornerRadius = bounds.size.height/2.0
+        maskLayer.backgroundColor = UIColor.white.cgColor
+        gradientLayer.mask = maskLayer
         
-        
+        performAnimation()
     }
     
     private func changeMaskFrame() {
@@ -64,8 +68,22 @@ class ColorProgress: UIView, CAAnimationDelegate {
     private func performAnimation() {
         var colors = gradientLayer.colors
         let color = colors?.popLast() as! CGColor
+        colors?.insert(color, at: 0)
         
+        let animation = CABasicAnimation(keyPath: "colors")
+        animation.fromValue = gradientLayer.colors
+        animation.toValue = colors
+        animation.duration = 0.08
+        animation.fillMode = kCAFillModeForwards
+        animation.delegate = self
+        gradientLayer.add(animation, forKey: "gradient")
         
+        gradientLayer.colors = colors
+    }
+    
+    //  动画停止后后继续动画
+    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+        performAnimation()
     }
     
     
